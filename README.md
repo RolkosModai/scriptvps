@@ -1,28 +1,26 @@
-<h1 align="center">
-  <a href="https://github.com/manssizz/scriptvps"><img src="https://github.com/Manssizz/scriptvps/raw/master/assets/logo.png" alt="LOGO"></a>
-</h1>
+
 
 ### PERHATIAN
-- Terima kasih untuk tidak menjual maupun mengenkripsi skrip ini. Saya mendapatkan secara gratis, jadi saya ataupun kalian harus berbagi secara gratis.
-- Script ini **tidak direkomendasikan untuk bermain game**.
-- Status servis terkadang miss informasi. Dimana pada status dead tetapi jika dilihat by servis statusnya sudah aktif. Jadi bisa diabaikan
-- Jika mendapatkan error pada status servis dalam jangka panjang, bisa restart servis yang dead.
+- Thank you for neither selling nor encrypting this script. I got it for free, so I or you guys have to share it for free.
+- This script is **not recommended for gaming**.
+- Service status sometimes miss information. Where the status is dead but if seen by the service the status is already active. So it can be ignored
+- If you get an error on the service status in the long term, you can restart the dead service.
 
 ### INSTALL SCRIPT
-<pre><code>apt install -y wget screen && wget -q https://raw.githubusercontent.com/manssizz/scriptvps/master/main.sh && chmod +x main.sh && screen -S install ./main.sh</code></pre>
+<pre><code>apt install -y wget screen && wget -q https://raw.githubusercontent.com/RolkosModai/scriptvps/master/main.sh && chmod +x main.sh && screen -S install ./main.sh</code></pre>
 
-Akses kembali 15 setelah proses instalasi. **Akses kembali via ssh menggunakan port 39**
+Re-access 15 after the installation process. **Re-access via ssh using port 39**
 
 ### TESTED ON OS 
 - UBUNTU 20.04.05
 
 ### FITUR TAMBAHAN
-- Tambah Swap 1GiB
-- Pemasangan yang dinamis
-- Tuning profile pada server
+- Add 1GiB Swap
+- Dynamic installation
+- Tuning profiles on the server
 - Xray Core by [@dharak36](https://github.com/dharak36/Xray-core)
-- Penambahan fail2ban
-- Auto block sebagian ads indo by default
+- Added fail2ban
+- Auto block some Indo ads by default
 
 ### PORT INFO
 ```
